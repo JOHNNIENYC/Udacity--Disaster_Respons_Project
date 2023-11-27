@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Disaster Response Pipeline Project
 
 ### Instructions:
