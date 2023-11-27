@@ -27,19 +27,19 @@ The project have three components: 1) ETL Pipeline 2) ML Pipeline 3) Flask Web A
 
 ### File Structure of the Project
 Root directory
-   -app
-      -run.py
-      -templates
-         -go.html
-         -master.html
-   -data
-      -disaster_categories.csv
-      -disaster_messages.csv
-      -DisasterResponse.db
-      -process_data.py
+   - app
+      - run.py
+      - templates
+         - go.html
+         - master.html
+   - data
+      - disaster_categories.csv
+      - disaster_messages.csv
+      - DisasterResponse.db
+      - process_data.py
       
-   -models
-      -train_classifier.py
+   - models
+      - train_classifier.py
       
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
