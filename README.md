@@ -5,13 +5,14 @@
 
 The goal of the project is to build a model for an API to classify disaster messages. Two Datasets "messages" and "categories"are provided by Udacity. 
 
-The project have three components: 1) ETL Pipeline 2) ML Pipeline 3) Flask Web App. The ETL pipeline will read the datasets, clean the data and store in a SQLite database. The ML pipeline will split the previous stored data into training set and a test set. By training the training set using NLTK, scikit-learn package, and gridsearch, a final model using for predicting classification is produced and the model is saved as a pickle file. The Flask web app will be used for displaying the model results. 
+The project have three components: 1) ETL Pipeline 2) ML Pipeline 3) Flask Web App. The ETL pipeline will read the datasets, clean the data and store in a SQLite database. The ML pipeline will split the previous stored data into training set and a test set. By training the training set using NLTK, scikit-learn package, and gridsearch, a final model using for predicting classification is produced and the model is saved as a pickle file. The Flask web app will be used for displaying the model results.  
 
 1. ETL Pipeline
     * Loads the messages and categories datasets
     * Merges the two datasets
     * Cleans the data
     * Stores it in a SQLite database
+
 2. ML Pipeline
     * Loads data from the SQLite database
     * Splits the dataset into training and test sets
@@ -19,6 +20,7 @@ The project have three components: 1) ETL Pipeline 2) ML Pipeline 3) Flask Web A
     * Trains and tunes a model using GridSearchCV
     * Outputs results on the test set
     * Exports the final model as a pickle file
+      
 3. Flask Web App
     * Modify file paths for database and model as needed
     * Add data visualizations using Plotly in the web app
