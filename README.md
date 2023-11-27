@@ -14,6 +14,3 @@
 3. Run your web app: `python run.py`
 
 4. Click the `PREVIEW` button to open the homepage
-=======
-# Udacity--Disaster-Response-Project
->>>>>>> 5026130a9d45dfd939783d289492f35909f0498c
