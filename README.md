@@ -24,7 +24,7 @@ The project have three components: 1) ETL Pipeline 2) ML Pipeline 3) Flask Web A
 3. Flask Web App
     * Modify file paths for database and model as needed
     * Add data visualizations using Plotly in the web app
-  
+
 ### File Structure of the Project
 Root directory
    -app
