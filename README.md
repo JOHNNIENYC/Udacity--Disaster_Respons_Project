@@ -1,6 +1,13 @@
 
 # Disaster Response Pipeline Project
 
+### Project description
+
+The goal of the project is to build a model for an API to classify disaster messages. The project have three components:
+1) ETL Pipeline 2) ML Pipeline 3) Flask Web App
+
+####1. ETP Pipeline 
+
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
 
@@ -11,6 +18,6 @@
 
 2. Go to `app` directory: `cd app`
 
-3. Run your web app: `python run.py`
+3. Run web app: `python run.py`
 
 4. Click the `PREVIEW` button to open the homepage
