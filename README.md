@@ -37,7 +37,6 @@ Root directory
       - disaster_messages.csv
       - DisasterResponse.db
       - process_data.py
-      
    - models
       - train_classifier.py
       
