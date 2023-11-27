@@ -8,7 +8,7 @@ The goal of the project is to build a model for an API to classify disaster mess
 The project have three components: 1) ETL Pipeline 2) ML Pipeline 3) Flask Web App 
 
 1. ETL Pipeline
-    *Loads the messages and categories datasets
+   * Loads the messages and categories datasets
     *Merges the two datasets
     *Cleans the data
     +Stores it in a SQLite database
