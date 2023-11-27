@@ -24,6 +24,22 @@ The project have three components: 1) ETL Pipeline 2) ML Pipeline 3) Flask Web A
 3. Flask Web App
     * Modify file paths for database and model as needed
     * Add data visualizations using Plotly in the web app
+  
+### File Structure of the Project
+Root directory
+   -app
+      -run.py
+      -templates
+         -go.html
+         -master.html
+   -data
+      -disaster_categories.csv
+      -disaster_messages.csv
+      -DisasterResponse.db
+      -process_data.py
+      
+   -models
+      -train_classifier.py
       
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
